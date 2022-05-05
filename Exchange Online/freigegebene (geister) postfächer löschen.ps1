@@ -1,4 +1,4 @@
-# Mit ExchangeOnline verbinden
+# Verbindung mit Exchange Online herstellen
 Connect-ExchangeOnline
 
 # Übersicht aller freigegebenen Postfächer (auch wenn sie nicht im Exchange Admin Center angezeigt werden)

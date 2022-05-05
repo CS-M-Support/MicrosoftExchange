@@ -1,4 +1,4 @@
-# Mit ExchangeOnline Verbinden
+# Verbindung mit Exchange Online herstellen
 Connect-ExchangeOnline
 
 # Neue Berechtigungen setzen
@@ -15,3 +15,6 @@ Set-MailboxFolderPermission -Identity [UPN]:\Calendar -User [UPN] -AccessRights 
 # PublishingAuthor:   CreateItems, CreateSubfolders, DeleteOwnedItems, EditOwnedItems, FolderVisible, ReadItems
 # PublishingEditor:   CreateItems, CreateSubfolders, DeleteAllItems, DeleteOwnedItems, EditAllItems, EditOwnedItems, FolderVisible, ReadItems
 # Reviewer:           FolderVisible, ReadItems
+
+# Verbindung mit Exchange Online trennen
+Disconnect-ExchangeOnline
