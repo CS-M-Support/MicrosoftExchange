@@ -1,4 +1,4 @@
-# Verbindung mit Exchange Online herstellen
+# Verbindung mit ExchangeOnline herstellen
 Connect-ExchangeOnline
 
 # CSV Datei muss mit dem Namen "Kontakte" im UTF-8 Format im Downloads Ordner abgespeichert sein
@@ -7,5 +7,5 @@ Import-Csv .\Kontakte.csv|%{New-MailContact -Name $_.DisplayName -DisplayName $_
 $contacts = Import-CSV .\Kontakte.csv
 $contacts | ForEach {Set-Contact $_.Name -StreetAddress $_.StreetAddress -City $_.City -StateorProvince $_.Region -PostalCode $_.ZIP -Phone $_.CompanyPhone -MobilePhone $_.MobilePhone -Company $_.Company -Fax $_.FAX}
 
-# Verbindung mit Exchange Online trennen
+# Verbindung mit ExchangeOnline trennen
 Disconnect-ExchangeOnline

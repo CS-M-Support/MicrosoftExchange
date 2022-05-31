@@ -1,8 +1,8 @@
-# Verbindung mit Exchange Online herstellen
+# Verbindung mit ExchangeOnline herstellen
 Connect-ExchangeOnline
 
 # Abfrage der Statusübersicht der Migrationen
 Get-MoveRequest
 
-# Verbindung mit Exchange Online trennen
+# Verbindung mit ExchangeOnline trennen
 Disconnect-ExchangeOnline

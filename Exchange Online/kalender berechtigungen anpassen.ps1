@@ -1,4 +1,4 @@
-# Verbindung mit Exchange Online herstellen
+# Verbindung mit ExchangeOnline herstellen
 Connect-ExchangeOnline
 
 # Aktuelle Berechtigungen auslesen
@@ -22,5 +22,5 @@ Set-MailboxFolderPermission -Identity [UPN]:\Calendar -User [UPN] -AccessRights 
 # Wichtige Info:
 # Sollte \Calendar nicht funktionieren, kann man es mit \Kalender versuchen. Teilweise funktioniert nur der deutsche Ordnername.
 
-# Verbindung mit Exchange Online trennen
+# Verbindung mit ExchangeOnline trennen
 Disconnect-ExchangeOnline
